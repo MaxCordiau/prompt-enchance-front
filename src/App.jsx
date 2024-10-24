@@ -79,7 +79,7 @@ function App() {
         </div>
         <div className="flex justify-center space-x-4">
           <a 
-            href="https://discord.gg/" 
+            href="https://cordix-community.com/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-white hover:text-pink-300 transition duration-300"

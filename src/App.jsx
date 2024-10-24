@@ -46,7 +46,7 @@ function App() {
             onChange={(e) => setPrompt(e.target.value)}
             className="w-full p-4 border border-purple-300 rounded-lg shadow-inner focus:outline-none focus:ring-2 focus:ring-pink-500 focus:border-transparent text-gray-800 bg-white bg-opacity-80 placeholder-gray-500 resize-none transition duration-300 ease-in-out"
             placeholder="Entre ton prompt ici..." 
-            rows="20" 
+            rows={prompt.length > 500 ? 20 : Math.min(20, Math.max(3, Math.ceil(prompt.length / 25)))}
             disabled={isLoading}
           />
           <div className="absolute top-2 right-2 text-xs text-gray-400">

@@ -16,7 +16,7 @@ function App() {
         body: JSON.stringify({prompt})
       })
       const data = await req.json()
-      setPrompt(data.enhancedPrompt)
+      setPrompt(data.enchancePrompt)
       setisLoading(false)
     }catch(e){
       console.error(e)

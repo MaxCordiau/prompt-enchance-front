@@ -28,11 +28,11 @@ function App() {
     <main className="min-h-screen bg-gradient-to-b from-purple-900 to-indigo-900 flex flex-col items-center justify-center p-4">
       <div className="w-full max-w-2xl bg-white bg-opacity-10 backdrop-blur-lg rounded-xl shadow-2xl p-8">
         <div className="flex justify-center mb-6">
-          <img 
+          <a href="https://cordix-community.com/"><img 
             src="/logo.png" 
             alt="BalanceTaBlague Logo" 
             className="w-24 h-24 object-contain"
-          />
+          /></a>
         </div>
         <h1 className="text-4xl font-extrabold mb-6 text-center text-white">
           Bienvenue sur{' '}

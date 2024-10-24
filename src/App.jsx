@@ -29,7 +29,7 @@ function App() {
       <div className="w-full max-w-2xl bg-white bg-opacity-10 backdrop-blur-lg rounded-xl shadow-2xl p-8">
         <div className="flex justify-center mb-6">
           <img 
-            src="/placeholder.svg?height=100&width=100" 
+            src="/logo.png" 
             alt="BalanceTaBlague Logo" 
             className="w-24 h-24 object-contain"
           />
@@ -67,7 +67,7 @@ function App() {
             ) : (
               <>
                 <Sparkles className="mr-2" size={20} />
-                Enhance
+                Générer
               </>
             )}
           </button>
@@ -79,7 +79,7 @@ function App() {
         </div>
         <div className="flex justify-center space-x-4">
           <a 
-            href="https://discord.gg/balancetablague" 
+            href="https://discord.gg/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-white hover:text-pink-300 transition duration-300"
@@ -88,7 +88,7 @@ function App() {
             <span className="sr-only">Rejoignez notre Discord</span>
           </a>
           <a 
-            href="https://www.balancetablague.com" 
+            href="#" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-white hover:text-yellow-300 transition duration-300"
